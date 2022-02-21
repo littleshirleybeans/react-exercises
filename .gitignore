@@ -1,0 +1,45 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+courseinfo/node_modules
+exercise_2/node_modules
+exercise_3/node_modules
+exercise_4/node_modules
+exercise_5/node_modules
+exercise_6/node_modules
+exercise_7/node_modules
+exercise_8/node_modules
+exercise_9/node_modules
+exercise_10/node_modules
+exercise_11/node_modules
+exercise_12/node_modules
+exercise_13/node_modules
+exercise_14/node_modules
+exercise_15/node_modules
+react-router/node_modules
+react-router-bootstrap/node_modules
+react-router-materialui/node_modules
+react-tutorial/node_modules
+react-webpack/node_modules
+ticking-clock/node_modules
+
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

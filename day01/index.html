@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--  load in three CDNs in the head - React, React DOM, and Babel -->
+    <script src="https://unpkg.com/react@^16/umd/react.production.min.js"></script>
+    <script src="https://unpkg.com/react-dom@16.13.0/umd/react-dom.production.min.js"></script>
+    <script src="https://unpkg.com/babel-standalone@6.26.0/babel.js"></script>
+</head>
+<body>
+    <div id="root"></div>
+
+    <script type="text/babel">
+        // use ES6 classes to create a React component called App.
+        class App extends React.Component {
+            // add the render() method, the only required method in a class component, which is used to render DOM nodes.
+            render() {
+                // JSX
+                return <h1>Hello world!</h1>
+            }
+        }
+        // use the React DOM render() method to render the App class created into the root div in the HTML.
+        ReactDOM.render(<App />, document.getElementById('root'))
+    </script>
+</body>
+</html>
